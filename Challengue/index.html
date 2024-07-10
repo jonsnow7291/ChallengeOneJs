@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <title>Challengue</title>
+
+    </head>
+    <body>
+        <main class="entrada">
+            <div>
+                <h1>Encriptado</h1>
+                    <img id="jhon" src="./img/7217093f2a5bae57ccb67827e3b079d7-3883050467.jpg"">
+                <div class="container-input">
+                    <input id="desencripta-input" type="text" class="input-entrada" disabled>
+                </div>
+                <button onclick="copiar()" id="copy" class="copy" hidden >copiar</button>
+            </div>
+        </main>
+        <aside class="salida">
+            <h2><i class="fa-solid fa-laptop-code"></i>  El encriptador 2000</h2>
+            <input id="encripta-input" type="text" class="input-salida" placeholder="ingresa tu texto">
+            <div class="container-restricciones">
+                <p><i class="fa-solid fa-circle-exclamation"></i>  solo letras minusculas y sin acento</p>
+            </div>
+            <div>
+                <button onclick="encriptar()" style="background-color: rgb(234, 155, 87);"class="encrypt">Encriptar</button>
+                <button onclick="desencriptar()" style="background-color: rgb(235, 208, 184);" class="encrypt">Desencriptar</button>
+            </div>
+        </aside>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
